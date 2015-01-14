@@ -3,7 +3,7 @@
 from add_cacti import *
 import sys
 class Login_Back(Login_Web):
-    def __init__(self,web = 'http://idc.uqee.com/Login/index.html',userName = '??',userPass = '??'):
+    def __init__(self,web = 'http://??/Login/index.html',userName = '??',userPass = '??'):
         self.userName = userName
         self.userPass = userPass
         self.web = web
